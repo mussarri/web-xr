@@ -1,1 +1,21 @@
+body {
+  min-height: 100vh;
+  background-position: 20% 5%;
+  background-color: #e8d69f;
+  overflow: hidden;
+}
 
+div#root {
+  height: 100vh;
+  width: 100%;
+}
+
+.ar-button {
+  position: absolute;
+  left: 50%;
+  bottom: 200px;
+  padding: 10px 20px;
+  background: red;
+  transform: translateX("-50%");
+  border-radius: 10px;
+}
