@@ -11,5 +11,5 @@ export default defineConfig({
     },
   },
   plugins: [react()],
-  base: process.env.VITE_BASE_PATH || "/deploy_react_app_vercel",
+  base: process.env.VITE_BASE_PATH || "/",
 });
