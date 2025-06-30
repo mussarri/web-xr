@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
 import "./App.css";
-import * as THREE from "three";
 import { ARButton } from "https://cdn.jsdelivr.net/npm/three@0.158.0/examples/jsm/webxr/ARButton.js";
-import { GLTFLoader } from "https://cdn.jsdelivr.net/npm/three@0.158.0/examples/jsm/loaders/GLTFLoader.js";
+import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
+import * as THREE from "three";
 
 function App() {
   let camera, scene, renderer, controller, reticle;
@@ -30,10 +30,7 @@ function App() {
 
     // Model yükle
     const loader = new GLTFLoader();
-    //   loader.load("./assets/tree.glb", (gltf) => {
-    //     model = gltf.scene;
-    //     model.scale.set(0.3, 0.3, 0.3);
-    //   });
+
     loader.load("/AR-Code-Object-Capture-app-1751148845.glb", function (gltf) {
       model = gltf.scene;
       model.scale.set(1, 1, 1);
