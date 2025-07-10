@@ -1,12 +1,32 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ **WebXR API** — native browser AR/VR support
+- ✅ **Three.js** — 3D rendering and scene management
+- ✅ **JavaScript (ES6)** — interaction logic
+- ✅ **GLTF / GLB Models** — lightweight 3D assets
+- ✅ **Vite / Webpack** — dev/build environment
+- ✅ **HTTPS Hosting** — required for WebXR
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Features
+
+🔹 Plane detection (if supported)  
+🔹 Tap to place 3D models  
+🔹 Works directly in supported browsers (Chrome on Android)  
+🔹 Mobile-first UI for AR session handling
+
+---
+
+## ⚠️ Important
+WebXR requires HTTPS and a compatible mobile browser like:
+    Chrome (Android)
+    Oculus Browser
+    Firefox Reality (deprecated)
+
+## 🌍 Live Demo
+    [🔗 Live AR Demo (WebXR Required)](https://web-xr-three.vercel.app/)
+    Open on a mobile device with AR support.
