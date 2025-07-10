@@ -75,45 +75,6 @@ function App() {
       });
     });
 
-    // renderer.xr.addEventListener("sessionstart", () => {
-    //   const session = renderer.xr.getSession();
-
-    //   session.requestReferenceSpace("viewer").then((refSpace) => {
-    //     session
-    //       .requestHitTestSource({ space: refSpace })
-    //       .then((hitTestSource) => {
-    //         renderer.setAnimationLoop((timestamp, frame) => {
-    //           const referenceSpace = renderer.xr.getReferenceSpace();
-    //           const hitTestResults = frame.getHitTestResults(hitTestSource);
-
-    //           // 🔴 Plane detection bölümü
-    //           const planes = frame.detectedPlanes;
-    //           if (planes) {
-    //             for (const plane of planes) {
-    //               const pose = frame.getPose(plane.planeSpace, referenceSpace);
-    //               const polygon = plane.polygon;
-    //               const orientation = plane.orientation; // "horizontal"
-
-    //               // Plane görselini çizmek için polygon + pose kullanılır
-    //             }
-    //           }
-
-    //           // 🔵 Reticle yerleşimi (senin mevcut kodun)
-    //           if (hitTestResults.length > 0) {
-    //             const hit = hitTestResults[0];
-    //             const pose = hit.getPose(referenceSpace);
-    //             reticle.visible = true;
-    //             reticle.matrix.fromArray(pose.transform.matrix);
-    //           } else {
-    //             reticle.visible = false;
-    //           }
-
-    //           renderer.render(scene, camera);
-    //         });
-    //       });
-    //   });
-    // });
-
     // Ekrana dokununca model yerleştir
     controller = renderer.xr.getController(0);
     controller.addEventListener("select", () => {
@@ -135,7 +96,7 @@ function App() {
       <div className="flex flex-col items-center justify-start">
         <img
           className="w-full max-w-[500px]"
-          src="1600w-BiB84MUi2zQ.webp"
+          src="augmented%2Breality-1330571993186822657_256px-removebg-preview.png"
           alt=""
           srcset=""
         />
