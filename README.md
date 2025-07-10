@@ -26,7 +26,9 @@ WebXR requires HTTPS and a compatible mobile browser like:
     Chrome (Android)
     Oculus Browser
     Firefox Reality (deprecated)
+    
+---    
 
 ## 🌍 Live Demo
-    [🔗 Live AR Demo (WebXR Required)](https://web-xr-three.vercel.app/)
-    Open on a mobile device with AR support.
+[🔗 Live AR Demo (WebXR Required)](https://web-xr-three.vercel.app/)
+Open on a mobile device with AR support.
