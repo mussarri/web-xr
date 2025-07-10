@@ -5,9 +5,9 @@
 
 - ✅ **WebXR API** — native browser AR/VR support
 - ✅ **Three.js** — 3D rendering and scene management
-- ✅ **JavaScript (ES6)** — interaction logic
-- ✅ **GLTF / GLB Models** — lightweight 3D assets
-- ✅ **Vite / Webpack** — dev/build environment
+- ✅ **React Js (ES6)** — interaction logic
+- ✅ **GLB Models** — lightweight 3D assets
+- ✅ **Vite** — dev/build environment
 - ✅ **HTTPS Hosting** — required for WebXR
 
 ---
