@@ -96,7 +96,7 @@ function App() {
       <div className="flex flex-col items-center justify-start">
         <img
           className="w-full max-w-[500px]"
-          src="/augmented%2Breality-1330571993186822657_256px-removebg-preview.png"
+          src="augmented+reality-1330571993186822657_256px-removebg-preview.png"
           alt=""
           srcset=""
         />
